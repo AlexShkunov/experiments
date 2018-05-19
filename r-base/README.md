@@ -1,8 +1,12 @@
 ##Files
 r-base-dep - Dependencies for R compilation (Ubuntu 18.04)
-Rscript - copy of a file from R/bin post compilation
+r-x.x.x - Compiled R runtime files
+
 sample.r - Sample R script that takes a path to CSV File as an argument
 run.sh - Command to Invoke sample.r passing a Dataset
+
+Dockerfile - testing packaging R within a redistributable Container image,
+	for environments without accessible Package manager (apt / yum)
 
 ##Complilation
 Build 2018-05-19
