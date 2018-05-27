@@ -1,8 +1,8 @@
-#Data experiments
+# Data experiments
 Collection of applications for different platforms
 
-##Data
-####deliveryData_2.csv
+## Data
+#### deliveryData_2.csv
 Package delivery data. Use for Linear regression, to forecast delivery days based on weight of a package
 **Columns**
 - date - dd/mm/yyyy - Order date
@@ -10,7 +10,7 @@ Package delivery data. Use for Linear regression, to forecast delivery days base
 - distance - Integer - delivery distance (km)
 - days - Integer - amount of days the package was under delivery
 
-####personalBudget.csv
+#### personalBudget.csv
 Personal budgeting history. Sample use is to forecast coinfidence (binary classification), of whether budgeting targets will be met in the given month
 **Columns**
 - period - mm/yyyy - Budgeting period
@@ -22,5 +22,5 @@ Personal budgeting history. Sample use is to forecast coinfidence (binary classi
 - debt_load - Float - coeficient describing total relative (to annual income) debt-amount
 - extra_flex - Boolean - Extra flexible spendings (e.g. travel)
 
-##Apps
+## Apps
 
